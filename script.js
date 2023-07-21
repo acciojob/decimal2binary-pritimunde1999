@@ -4,7 +4,7 @@ function decimalToBinary(num) {
   while(num>0)
 	  {
 		  let digit = num%2;
-		  ans += digit;
+		  ans += String(digit);
 		  num = num/2;
 	  }
 
